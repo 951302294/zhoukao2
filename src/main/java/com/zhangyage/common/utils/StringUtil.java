@@ -17,7 +17,6 @@ public class StringUtil {
 		
 		//检索是否又\n
 		int i = html.indexOf("\\n");
-		System.out.println(html);
 		if ((i+2)==html.length()) {
 			String str = "<p>"+html.substring(0, i)+"<\\p>";
 			return str;
